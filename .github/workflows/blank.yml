@@ -1,6 +1,8 @@
 name: Slack-release-message
 
-on: release
+on: 
+  release:
+    type: [published]
 
 jobs:
   # This workflow contains a single job called "build"
