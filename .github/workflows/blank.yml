@@ -25,3 +25,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: martin-garcia-blanco/github-release-message-sender@main
+        env: 
+          GITHUB_TOKEN: ${{ secrets.OCTOKIT_TOKEN }}
