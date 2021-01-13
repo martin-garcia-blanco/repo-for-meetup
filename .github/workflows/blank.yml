@@ -27,3 +27,4 @@ jobs:
       - uses: martin-garcia-blanco/github-release-message-sender@main
         env: 
           GITHUB_TOKEN: ${{ secrets.OCTOKIT_TOKEN }}
+          SLACK_CHANNEL_URL: ${{ secrets.SLACK_URL }}
